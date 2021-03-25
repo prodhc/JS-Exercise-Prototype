@@ -122,10 +122,10 @@ console.log(secoya);
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. When new is used, "this" inside a function is a new object.
+    2. When apply, call and bind is used to call a function, "this" insie a function is the object that's passed as the arguemnt.
+    3. When a function is called as a method, "this" is the object that the function is the property of.
+    4. A function invoked as a free function, "this" defer to the global object.
   */
   
   
